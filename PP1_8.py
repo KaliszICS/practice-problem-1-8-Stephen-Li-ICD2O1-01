@@ -6,11 +6,11 @@ def q1():
   print(bool1 or bool2)
 
 def q2():
-  num = int(input("Input an interger: "))
+  num = int(input("Enter an integer: "))
   print(num != 0)
 
 def q3():
-  num = float(input("Input a number: "))
+  num = float(input("Enter a number: "))
   print(num >= 0 and num <= 10)
 
 def q4():
@@ -19,7 +19,7 @@ def q4():
   print(food != "pizza" or drink != "pop")
 
 def q5():
-  num = int(input("Input an interger: "))
+  num = int(input("Enter an interger: "))
   integer = num % 2
   bool = integer == 0
   print(f"The integer {num} is {bool}")
@@ -27,8 +27,8 @@ def q5():
 #Do not edit code after this
 #Comment out the followwing code when running tests
 
-q1()
-q2()
-q3()
-q4()
-q5()
+# q1()
+# q2()
+# q3()
+# q4()
+# q5()
