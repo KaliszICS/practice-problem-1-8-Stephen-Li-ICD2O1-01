@@ -19,16 +19,16 @@ def q4():
   print(food != "pizza" or drink != "pop")
 
 def q5():
-  num = int(input("Enter an interger: "))
+  num = int(input("Enter an integer: "))
   integer = num % 2
   bool = integer == 0
-  print(f"The integer {num} is {bool}")
+  print(f"The integer {num} is {bool}.")
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
 
-# q1()
-# q2()
-# q3()
-# q4()
-# q5()
+q1()
+q2()
+q3()
+q4()
+q5()
